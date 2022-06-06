@@ -1,5 +1,5 @@
-FROM redis
-MAINTAINER Hide <padocon@naver.com>
+FROM redis:latest
 
 EXPOSE 6379
+
 CMD ["redis-server"]

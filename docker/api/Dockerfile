@@ -1,5 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8
-MAINTAINER Hide <padocon@naver.com>
+FROM continuumio/miniconda3:latest
 
 COPY . /home
 WORKDIR /home
